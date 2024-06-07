@@ -54,7 +54,7 @@ function displayMessage(message) {
 function respondToMessage(message) {
     let response;
     if (message.toLowerCase().includes("")) {
-        response = "Hola, espero que estes bien, te doy la bienvenida a nuestra Lechoneria De La Abuela. Es un placer tenerte con nosotros, por eso te doy las siguientes opciones para que pases un rato agradable y disfrutes de nuestras especialidades.";
+        response = "Hola, espero que estes bien, te doy la bienvenida a nuestra Lechona De La Abuela. Es un placer tenerte con nosotros, por eso te doy las siguientes opciones para que pases un rato agradable y disfrutes de nuestras especialidades.";
         response += "<button onclick='redirectToPage(\"quintomenu.html\")' style=background-color: green>Ver menú</button>";
     }  
     else {
